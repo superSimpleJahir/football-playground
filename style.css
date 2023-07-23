@@ -1,0 +1,133 @@
+body{
+    background: #000;
+}
+section{
+    width: 1250px;
+    margin: auto;
+    background: rgb(11, 182, 11);
+    height: 700px;
+    padding-top: 40px;
+}
+.border_all{
+    width: 1200px;
+    height: 620px;
+    margin: 10px auto;
+    border: 3px solid white;
+    position: relative;
+}
+.gool_bar1{
+    position: absolute;
+    height: 200px;
+    width: 100px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    border: 3px solid white;
+    border-left: 0px solid;
+}
+.gool_bar2{
+    position: absolute;
+    height: 200px;
+    width: 100px;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    border: 3px solid white;
+    border-right: 0px solid;
+}
+.gool_box1{
+    position: absolute;
+    height: 400px;
+    width: 250px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    border: 3px solid white;
+    border-left: 0px solid;
+}
+.gool_box2{
+    position: absolute;
+    height: 400px;
+    width: 250px;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    border: 3px solid white;
+    border-right: 0px solid;
+}
+.meddle_line{
+    position: absolute;
+    height: 620px;
+    width: 5px;
+    top: 0;
+    right: 50%;
+    transform: translateX(-50%);
+    border-left: 3px solid white;
+}
+.circle{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 36%;
+    left: 42%;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.player1{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.player2{
+    position: absolute;
+    top: 8%;
+    left: 28%;
+}
+.player3{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.player4{
+    position: absolute;
+    bottom: 30%;
+    left: 20%;
+}
+.player5{
+    position: absolute;
+    bottom: 8%;
+    left: 28%;
+}
+.player6{
+    position: absolute;
+    top: 28%;
+    left: 35%;
+}
+.player7{
+    position: absolute;
+    bottom: 28%;
+    left: 35%;
+}
+.player8{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+}
+.player9{
+    position: absolute;
+    bottom: 20%;
+    left: 55%;
+}
+.player10{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translateY(-50%);
+}
+.player11{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translateY(-50%);
+}
